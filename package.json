@@ -5,6 +5,9 @@
   "main": "index.js",
   "type": "module",
   "baseUrl": "./",
+  "bin":{
+    "koa-setup":"./bin/index.js"
+  },
   "scripts": {
     "test": "rimraf ./hei && node index.js"
   },
